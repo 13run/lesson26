@@ -13,3 +13,6 @@ User: [awdawd] -- Phone: [123123123] -- Date time: [12.12 15:04] -- Barber: [Wal
 User: [awdawda] -- Phone: [123123] -- Date time: [12.12 15:04] -- Barber: [Gus Fring] -- Hair color: [#7bd148]
 User: [awd] -- Phone: [123123] -- Date time: [12.12 15:05] -- Barber: [Walter White] -- Hair color: [#5484ed]
 User: [awd] -- Phone: [123123] -- Date time: [12.12 15:05] -- Barber: [Walter White] -- Hair color: [#5484ed]
+User: [rui] -- Phone: [12312312355555] -- Date time: [12.12 15:04] -- Barber: [Jessie Pinkman] -- Hair color: [#dc2127]
+User: [ryu] -- Phone: [567890] -- Date time: [12.12 15:09] -- Barber: [Jessie Pinkman] -- Hair color: [#46d6db]
+User: [ryu] -- Phone: [131415] -- Date time: [12.12 15:09] -- Barber: [Jessie Pinkman] -- Hair color: [#7bd148]

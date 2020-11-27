@@ -7,8 +7,8 @@ require 'pony'
 require 'sqlite3'
 
 configure do
-  @db = SQLite3::Database.new 'barbershop_db'
-  @db.execute 'CREATE TABLE IF NOT EXISTS
+  db = get_db
+  db.execute 'CREATE TABLE IF NOT EXISTS
   "Users"
    (
       "id"  INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -17,7 +17,7 @@ configure do
       "datestamp" TEXT,
       "barber"  TEXT,
       "color" TEXT
-      )'
+    )'
 end
 
 get '/' do
@@ -67,6 +67,17 @@ post '/visits' do
 
   def add_client
     @f.write "User: [#{@user}] -- Phone: [#{@phone}] -- Date time: [#{@date}] -- Barber: [#{@barber}] -- Hair color: [#{@colorpicker}]\n"
+    db = get_db
+    db.execute 'insert into
+      Users
+      (
+        username,
+        phone,
+        datestamp,
+        barber,
+        color
+      )
+      values (?, ?, ?, ?, ?)', [@user, @phone, @date, @barber, @colorpicker]
   end
 
   if is_time_busy? && is_barber_busy?
@@ -78,6 +89,7 @@ post '/visits' do
   end
 
   @f.close
+
   erb @message
 end
 
@@ -114,4 +126,8 @@ post '/contacts' do
   @f.close
 
   erb :contacts
+end
+
+def get_db
+  SQLite3::Database.new 'barbershop_db'
 end
