@@ -1,0 +1,15 @@
+User:sad--Phone1112222--Date time11.09 22:01
+User:das--Phone3334444--Date time11.09 22:02
+User: [awdaw] -- Phone: [111122222] -- Date time: [11.08 22.22] -- Barber: []
+User: [awdaw] -- Phone: [111122222] -- Date time: [11.08 22.22] -- Barber: []
+User: [awdawd] -- Phone: [123123123] -- Date time: [11.08 22.22] -- Barber: [Walter White]
+User: [rrrrrrrr] -- Phone: [123123123] -- Date time: [11.08 22.22] -- Barber: [Walter White]
+User: [awdawd] -- Phone: [123123123] -- Date time: [11 18.01] -- Barber: [Jessie Pinkman]
+User: [helga] -- Phone: [7909089765454] -- Date time: [12.12 13:00] -- Barber: [Jessie Pinkman] -- Hair color: [#5484ed]
+User: [dawd] -- Phone: [23312312] -- Date time: [11.08 22.22] -- Barber: [Walter White] -- Hair color: [#7bd148]
+User: [adw] -- Phone: [awdaw] -- Date time: [adwawd] -- Barber: [Gus Fring] -- Hair color: [#7bd148]
+User: [awdawd] -- Phone: [a123123123] -- Date time: [12.12 15:04] -- Barber: [Jessie Pinkman] -- Hair color: [#7bd148]
+User: [awdawd] -- Phone: [123123123] -- Date time: [12.12 15:04] -- Barber: [Walter White] -- Hair color: [#7bd148]
+User: [awdawda] -- Phone: [123123] -- Date time: [12.12 15:04] -- Barber: [Gus Fring] -- Hair color: [#7bd148]
+User: [awd] -- Phone: [123123] -- Date time: [12.12 15:05] -- Barber: [Walter White] -- Hair color: [#5484ed]
+User: [awd] -- Phone: [123123] -- Date time: [12.12 15:05] -- Barber: [Walter White] -- Hair color: [#5484ed]
