@@ -18,6 +18,14 @@ configure do
       "barber"  TEXT,
       "color" TEXT
     )'
+
+  db.execute 'CREATE TABLE IF NOT EXISTS
+  "Barbers"
+   (
+      "id"  INTEGER PRIMARY KEY AUTOINCREMENT,
+      "barbername"  TEXT,
+      "phone" TEXT
+    )'
 end
 
 get '/' do
@@ -128,6 +136,14 @@ post '/contacts' do
   erb :contacts
 end
 
+get '/showusers' do
+  @db = get_db
+  @str = ''
+  erb :showusers
+end
+
 def get_db
-  SQLite3::Database.new 'barbershop_db'
+  db = SQLite3::Database.new 'barbershop_db'
+  db.results_as_hash = true
+  db
 end

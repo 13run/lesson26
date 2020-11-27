@@ -1,0 +1,21 @@
+
+<table border="1">
+  	<tr>
+  		<td>Username</td>
+  		<td>Phone</td>
+  		<td>Datetime</td>
+  		<td>Barber</td>
+  		<td>Color</td>
+  	</tr>
+
+  	<% @db.execute 'select*from Users order by id desc --' do |line|%>
+    <tr>
+	    <%= p "	<td> #{ line['username'].capitalize } </td>
+	    		<td> #{ line['phone'] } </td>
+	    		<td> #{ line['datestamp'] } </td>
+	    		<td> #{ line['barber'] } </td>
+	    		<td> #{ line['color'] } </td>"
+		%>
+  	</tr>
+  	<% end %>
+</table>
